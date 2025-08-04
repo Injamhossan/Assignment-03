@@ -1,6 +1,5 @@
 /** Problem -02 ( Cycle or Laptop ) */
 var money = 1000;
-//write your code here
 
 if (money >= 25000) {
     console.log("Laptop");

@@ -1,12 +1,11 @@
 /** Problem 04 - (Delete / Store) */
-var fileName = "result.pdf";
-//write your code here
+var fileName = "pdfData.jpg";
 
-if (fileName.startsWith("#")) {
+if (fileName.indexOf("#") === 0) {
   console.log("Store");
-} else if (fileName.endsWith(".pdf")) {
+} else if (fileName.indexOf(".pdf") === fileName.length - 4) {
   console.log("Store");
-} else if (fileName.endsWith(".docx")) {
+} else if (fileName.indexOf(".docx") === fileName.length - 5) {
   console.log("Store");
 } else {
   console.log("Delete");
